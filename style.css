@@ -1,0 +1,117 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fond général du site */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f3; /* Fond léger */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #006633, #003366); /* Dégradé bleu et vert foncé */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+//* Logo */
+header img {
+    width: 200px; /* Largeur du logo, ajustez si nécessaire */
+    height: 150px; /* Hauteur du logo pour éviter les coupures */
+    object-fit: contain; /* Cette propriété garantit que l'image entière est visible sans être coupée */
+    margin-bottom: 20px;
+    border-radius: 50%; /* Cercle */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre autour du logo */
+    display: block; /* Supprime l'espace autour de l'image */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; /* Fond blanc à l'intérieur du cercle */
+    padding: 10px; /* Ajoute un peu d'espace autour du logo */
+}
+
+
+/* Navigation */
+nav {
+    background-color: #003366;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #006633; /* Vert foncé */
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    background-color: white;
+    margin: 40px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+/* Effets sur les icônes */
+.fas {
+    margin-right: 10px;
+    color: #006633;
+}
